@@ -1,0 +1,68 @@
+
+#!/bin/python3
+print("Hello, World! from sweden")
+print("Hello, World! from Malmo")
+print("Hello all newbies")
+
+
+
+#SINGLE & DOUBLE QUOTES
+print('Hello Welcome to 30 day\'s python series')
+
+#ADDING NEW LINES
+print("Shopping List:- \nApples -\nBanana -\nOranges")
+print("Shopping List:- \n-Apples \n-Banana \n-Oranges")
+print("Today is Monday \n-weather:30")
+
+#BACKSLASH '\' EXCERCISES
+print('C:\Users\YourName\Documents')
+print('C: \\Users\\YourName\\Documents')
+
+#INDENTATION
+if 5 > 2:
+print("Five is greater than two") 
+
+#VARIABLES
+
+#Integer 
+age = 25
+
+#String
+name = "Alan"
+
+#Float
+temperature = 37.8
+
+#List
+colors = ['red', 'blue', 'green']
+
+#Valid variable
+name = "Alan"     #String
+age = 37          #Integer
+weight = 68.7     #Float
+is_student = True #Boolean
+
+#Invalid variable names
+2name = "Alan"      #Starts with a number (invalid)
+class = ""Data"     #Uses a reserved keyword (invalid)
+
+#RULES FOR CREATING VARIABLES
+1. Must start with a letter or underscore
+2. Cannot start with a number
+3. Can contain letters, numbers and underscores
+4. Case sensitive
+5. Cannot use Python reserved keywords eg. for, if, while
+    
+#INPUT FUNCTIONS 
+user_input("Enter something :")
+
+This means user may enter a number or a text both will be displayed without error message.
+But if we want to make sure that user enter number only then
+int(user_input("Enter a number"))  In this case if the user inputs text, there will be an error message
+
+try:
+    number = int(input("Enter a number")) 
+except ValueError:
+    print("Please enter correct")
+    
+    In this case the user will be prompted to correct  their input 
