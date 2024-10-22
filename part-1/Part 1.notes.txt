@@ -44,7 +44,7 @@ is_student = True #Boolean
 
 #Invalid variable names
 2name = "Alan"      #Starts with a number (invalid)
-class = ""Data"     #Uses a reserved keyword (invalid)
+class = "Data"     #Uses a reserved keyword (invalid)
 
 #RULES FOR CREATING VARIABLES
 1. Must start with a letter or underscore
